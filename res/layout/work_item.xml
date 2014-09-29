@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/lin"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  
+>
+    <CheckBox
+          android:id="@+id/check_work"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=""
+          android:paddingTop="45px"
+          android:paddingRight="10px"          
+      />
+      <LinearLayout
+      		android:id= "@+id/li"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"          
+      >
+          <TextView
+              android:id="@+id/work_content"
+              android:textSize="24px"
+                android:layout_gravity="center"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="#9BFFBA"
+          />
+          <TextView
+              android:id="@+id/time_content"
+              android:textSize="16px"
+                android:layout_gravity="center"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:lines="1"
+              android:textColor="#CC0000"
+          />
+      </LinearLayout>
+</LinearLayout>

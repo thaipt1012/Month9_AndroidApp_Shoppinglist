@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2" >
+    <TextView android:id="@+id/titleDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="22dp"
+        android:textColor="#FFFFFF"
+        ></TextView>
+    
+     <TextView android:id="@+id/cateDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="12dp"
+        android:textColor="#07A6CA"
+        
+        ></TextView>
+     <ImageView 
+         android:id="@+id/iconDetail"
+         android:layout_width="100dp"
+         android:layout_height="100dp"
+         android:layout_gravity="center_horizontal"
+         />
+     <TextView 
+        android:id="@+id/priceDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="12dp"
+        android:textColor="#0FBD47"
+        ></TextView>
+     
+     <RatingBar 
+            android:id="@+id/rateDetail"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    style="@style/customratingbar"
+		    android:layout_margin="5dp"
+            />
+     <LinearLayout 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_margin="5dp"
+         android:orientation="horizontal"
+         >
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/statusCheckeddetail"
+             android:textSize="10dp"
+             android:textColor="#000000"
+             />
+         
+         <CheckBox 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/checkItemDetail"
+             android:layout_marginLeft="10dp"
+             android:onClick="selectthisitem"
+             />
+         
+     </LinearLayout>
+     <LinearLayout 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_margin="5dp"
+         android:id="@+id/customquandetail"
+         android:visibility="invisible"
+         >
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Số lượng : "
+             android:textSize="10dp"
+             android:layout_marginRight="10dp"
+             android:textColor="#000000"
+             />
+         <EditText 
+             android:id="@+id/quanDetail"
+             android:layout_width="32dp"
+             android:layout_height="32dp"
+             android:textSize="10dp"
+             android:inputType="number"
+             />
+         <Button 
+             android:id="@+id/adjustQuanDetail"
+             android:layout_width="32dp"
+             android:layout_height="32dp"
+             android:text="+"
+             android:textStyle="bold"
+             android:textSize="10dp"
+             />
+         <Button 
+             android:id="@+id/decreaseQuanDetail"
+             android:layout_width="32dp"
+             android:layout_height="32dp"
+             android:text="-"
+             android:textStyle="bold"
+             android:textSize="10dp"
+             />
+     </LinearLayout>
+     
+     <LinearLayout 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_margin="5dp"
+         >
+         <ImageView 
+         android:id="@+id/backHomeDetail"
+         android:layout_width="40dp"
+         android:layout_height="40dp"
+         android:layout_margin="5dp"
+         android:src="@drawable/homed"
+         />
+         <ImageView 
+         android:id="@+id/editItemDetail"
+         android:layout_width="40dp"
+         android:layout_height="40dp"
+         android:layout_margin="5dp"
+         android:src="@drawable/editd"
+         />
+         <ImageView 
+         android:id="@+id/saveItemDetail"
+         android:layout_width="40dp"
+         android:layout_height="40dp"
+         android:layout_margin="5dp"
+         android:src="@drawable/saved"
+         />
+         <ImageView 
+         android:id="@+id/deleteItemDetail"
+         android:layout_width="40dp"
+         android:layout_height="40dp"
+         android:layout_margin="5dp"
+         android:src="@drawable/removed"
+         />
+     </LinearLayout>
+     <Gallery 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/gallery"
+         android:gravity="center_horizontal"
+         android:scrollbars="horizontal"
+         android:scrollX="100px"
+         android:spacing="20px"
+         android:background="@drawable/border_img"
+         android:paddingTop="10dp"
+         android:layout_marginTop="30dp"
+         android:fastScrollEnabled="true"
+         />
+     
+     <TextView 
+         android:layout_width="0dp"
+         android:layout_height="0dp"
+         android:id="@+id/edit_item_url"
+         android:visibility="invisible"
+         />
+     
+     <TextView 
+         android:layout_width="0dp"
+         android:layout_height="0dp"
+         android:id="@+id/edit_price_invi"
+         android:visibility="invisible"
+         />
+    
+
+</LinearLayout>

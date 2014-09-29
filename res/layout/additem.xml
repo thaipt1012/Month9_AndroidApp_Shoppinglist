@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/header"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Spinner 
+        android:id="@+id/selectCate2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:background="@drawable/spinner_selector"
+        android:paddingLeft="7dp"
+        android:layout_marginBottom="4dp"
+        />
+    <TableLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        <TableRow 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên"
+                android:textSize="10dp"
+                />
+            <EditText 
+                android:id="@+id/nameItem"
+                android:layout_width="250dp"
+                android:layout_height="35dp"
+                android:textSize="10dp"
+                
+                />
+            
+        </TableRow>
+        
+        <TableRow 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giá"
+                android:textSize="10dp"
+                />
+            <EditText 
+                android:id="@+id/priceItem"
+                android:layout_width="250dp"
+                android:layout_height="35dp"
+                android:textSize="10dp"
+                android:inputType="number"
+                />
+            
+        </TableRow>
+        
+        <TableRow 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số lượng"
+                android:textSize="10dp"
+                />
+            <EditText 
+                android:id="@+id/quanItem"
+                android:layout_width="250dp"
+                android:layout_height="35dp"
+                android:textSize="10dp"
+                android:inputType="number"
+                />
+            
+        </TableRow>
+        
+        <TableRow 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            
+            >
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đánh giá"
+                android:textSize="10dp"
+                />
+            <EditText 
+                android:id="@+id/rateItem"
+                android:layout_width="250dp"
+                android:layout_height="35dp"
+                android:textSize="10dp"
+                android:inputType="number"
+                />
+            
+        </TableRow>
+        
+        <TableRow 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ảnh"
+                android:textSize="10dp"
+                />
+           
+            <ImageView
+			        android:id="@+id/selectImgAdd1"
+			        android:layout_width="90dp"
+			        android:layout_height="90dp"
+			        android:layout_gravity="left"
+			        android:layout_margin="10dp"
+			        android:onClick="selectthis"
+			        />
+            
+        </TableRow>
+        
+        <TableRow 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mô tả"
+                android:textSize="10dp"
+                />
+            <EditText 
+                android:id="@+id/desItem"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:textSize="10dp"
+                android:lines="5"
+                android:text=""
+                />
+            
+        </TableRow>
+        
+        <TableRow 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+           <Button 
+               android:id="@+id/cancel"
+               android:layout_width="wrap_content"
+               
+               android:textSize="10dp"
+               android:layout_height="35dp"
+               android:text="Hủy"
+               />
+           <Button 
+               android:id="@+id/addMoreItem"
+               android:layout_width="wrap_content"
+               android:text="Thêm sản phẩm"
+               android:layout_height="35dp"
+               android:textSize="10dp"
+               />
+         </TableRow>
+        
+    </TableLayout>
+    <Spinner 
+        android:id="@+id/selectCate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:background="@drawable/spinner_selector"
+        android:paddingLeft="7dp"
+        android:layout_marginBottom="10dp"
+        />
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/imgItem"
+        android:visibility="invisible"
+        />
+    
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/checkedlist">"
+    <Spinner 
+        android:id="@+id/selectCate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:background="@drawable/spinner_selector"
+        android:paddingLeft="7dp"
+        android:layout_marginBottom="4dp"
+        />
+    <LinearLayout 
+        android:id="@+id/selectDiv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border_list"
+        android:layout_marginBottom="10dp"
+    >
+        <EditText 
+            android:id="@+id/pickDateField"
+            android:layout_width="83dp"
+            android:layout_height="35dp"
+            android:textSize="10dp"
+            />
+       <Button 
+        android:id="@+id/selectDate"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:textSize="10dp"
+        android:text="Chọn ngày"
+        android:layout_marginRight="10dp"
+        />
+       <Button 
+        android:id="@+id/goCustomChecked"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:textSize="10dp"
+        android:text="GO"
+        android:layout_marginRight="3dp"
+        />
+       <TextView 
+           android:id="@+id/totalMoney"
+           android:layout_width="wrap_content"
+           android:layout_height="35dp"
+           android:textColor="#42EB00"
+           />
+       <TextView 
+           android:id="@+id/tempolaryCate"
+           android:layout_width="0dp"
+           android:layout_height="0dp"
+           android:visibility="invisible"
+           />
+    </LinearLayout>
+    
+    <ListView 
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/border_list"
+        android:layout_marginBottom="5dp"
+        ></ListView>
+    
+    
+    
+
+</LinearLayout>

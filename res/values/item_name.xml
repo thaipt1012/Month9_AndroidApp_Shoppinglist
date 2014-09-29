@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="item_name">
+     <item >banhngot.jpg</item>
+     <item >banhnhantao.jpg</item>
+      <item >banhnuong.jpg</item>
+      <item >banhxop.jpg</item>
+      <item >biahanoi.jpg</item>
+      <item >chanchau.jpg</item>
+      <item >gaquay.jpg</item>
+      <item >gaquay2.jpg</item>
+      <item >gatrongchoai.jpg</item>
+      <item >keomut.jpg</item>
+      <item >lonsua.jpg</item>
+      <item >moncha.jpg</item>
+    <item >raucai.jpg</item>
+    <item >raumuong.jpg</item>
+    <item >thitca.jpg</item>
+    <item >thitcho.jpg</item>
+    <item >thitga.jpg</item>
+    <item >thitkho.jpg</item>
+    <item >thitlon.jpg</item>
+  <item >thitlonloai1.jpg</item>
+    <item >chatranh.jpg</item>
+    <item >muopdang.jpg</item>
+</string-array>
+    
+</resources>

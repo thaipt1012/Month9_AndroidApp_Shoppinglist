@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.shopingList"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="4" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        
+        <activity
+            android:name=".Mainmenu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ShopingListActivity" />
+        <activity android:name=".CreateCategory"
+            android:theme="@android:style/Theme.Dialog"
+            android:label="@string/img"
+            ></activity>
+        <activity android:name="ShowItems" />
+        <activity android:name="addItem" />
+        <activity android:name="myItemChecked" />
+        <activity android:name="Config" />
+        <activity android:name="TaskActivity"></activity>
+        <activity android:name="TaskAdd"></activity>
+    </application>
+
+</manifest>

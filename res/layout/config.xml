@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/titleConfig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONFIGURATION"
+        android:textColor="#FFFFFF"
+        android:typeface="sans"
+        android:textSize="17dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        />
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/border">"
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên bạn"
+                android:textSize="11dp"
+                />
+            <EditText 
+                android:id="@+id/nameConf"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="11dp"
+                />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số Lượng măc định"
+                android:textSize="11dp"
+                />
+            <EditText 
+                android:id="@+id/deauftQuanConf"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:inputType="number"
+                android:textSize="11dp"
+                />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hiển thị hộp thoại"
+                android:textSize="11dp"
+                />
+            <CheckBox 
+                android:id="@+id/isPopup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textSize="11dp"
+                />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+             <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Host img"
+                android:textSize="11dp"
+                />
+            <EditText 
+                android:id="@+id/hostConf"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="11dp"
+        
+                />
+        </TableRow>
+        <TableRow 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <Button 
+                android:id="@+id/cancelchangeConf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hủy"
+                android:textSize="11dp"
+                />
+            <Button 
+                android:id="@+id/changeConf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đồng ý"
+                android:textSize="11dp"
+                />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

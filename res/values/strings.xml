@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_hint">Nhập tên công việc</string>
+    <string name="hour_edit">Hour</string>
+    <string name="minute_edit">Minute</string>
+    <string name="button_content">Thêm</string>
+    <string name="hello">Đề tài</string>
+    <string name="app_name">ShoppingList</string>
+	<string name="img">Chon Hinh Anh Minh Hoa</string>
+	 <string name="prompt">Chọn Ảnh</string>
+    <string name="category_name">Loại Mặt Hàng</string>
+</resources>

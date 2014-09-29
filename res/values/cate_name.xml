@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="tensanpham">
+    <item >thit.jpg</item>
+    <item>rau.jpg</item>
+    <item >doannhanh.jpg</item>
+    <item >quan_ao.jpg</item>
+</string-array>
+    
+</resources>

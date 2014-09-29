@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="-3dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên công việc : " />
+
+            <EditText
+                android:id="@+id/editTextTenCV"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        
+        
+
+		<TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thời gian thực hiện : " />
+
+            <EditText
+                android:id="@+id/editTextThgianTH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+		
+		
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ngày thực hiện : " />
+
+            <EditText
+                android:id="@+id/editTextNgayTH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        
+        
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Địa điểm : " />
+
+            <EditText
+                android:id="@+id/editTextDiaDiem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+
+        
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ghi chú : " />
+
+            <EditText
+                android:id="@+id/editTextGhiChu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        
+
+        <CheckBox
+            android:id="@+id/checkBoxNhacNho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhắc nhở" />
+
+    </TableLayout>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_x="0dp"
+        android:layout_y="336dp" >
+    </ListView>
+
+    <Button
+        android:id="@+id/buttonThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="8dp"
+        android:layout_y="280dp"
+        android:text="Thêm" />
+
+    <Button
+        android:id="@+id/buttonHuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="80dp"
+        android:layout_y="281dp"
+        android:text="Hủy" />
+
+    <Button
+        android:id="@+id/buttonQuayLai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="140dp"
+        android:layout_y="280dp"
+        android:text="Quay lại" />
+
+    <Button
+        android:id="@+id/Xem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="226dp"
+        android:layout_y="278dp"
+        android:text="Xem" />
+
+</AbsoluteLayout>

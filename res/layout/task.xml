@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+	<RelativeLayout
+	    android:id="@+id/layout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    orientation="vertical" >
+
+	    <TextView
+	        android:id="@+id/TenCV"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:text="Ten Cong viec"
+	        android:textSize="18sp" />
+
+	    <TextView
+	        android:id="@+id/Ngay"
+	        android:layout_width="135dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/TenCV"
+	        android:layout_weight="1"
+	        android:text="Ngay : " />
+
+	    <TextView
+	        android:id="@+id/Gio"
+	        android:layout_width="135dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/Ngay"
+	        android:layout_weight="1"
+	        android:text="Gio : " />
+
+	    <TextView
+	        android:id="@+id/DiaDiem"
+	        android:layout_width="135dp"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/TenCV"
+	        android:layout_toRightOf="@+id/Ngay"
+	        android:text="DiaDiem : " />
+	    
+	    <TextView
+	        android:id="@+id/GhiChu"
+	        android:layout_width="135dp"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/DiaDiem"
+	        android:layout_toRightOf="@+id/Gio"
+	        android:text="GhiChu : " />
+
+	    <CheckBox
+	        android:id="@+id/checkBox1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/TenCV"
+	        android:checked="false" />
+
+	</RelativeLayout>
+
+</LinearLayout>

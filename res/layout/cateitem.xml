@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/border_cate"
+    android:layout_margin="10dp" >
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView 
+        android:id="@+id/iconCate"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/border_img"
+        />
+    
+    <TextView 
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/titleCate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13dp"
+        android:textColor="#F0F1F1"
+        android:layout_alignBaseline="@id/iconCate"
+        android:layout_toRightOf="@id/iconCate"
+        
+        />
+    <ImageView
+        android:id="@+id/updateCate"
+        android:layout_width="20dp"
+        android:layout_height="17dp"
+        android:layout_alignLeft="@id/titleCate"
+        android:layout_below="@id/titleCate"
+        android:layout_toRightOf="@id/iconCate"
+        android:layout_marginLeft="10dp"
+        android:textColor="#FFFFFF"
+        android:onClick="editCate"
+        android:src="@drawable/edit_cate_icon"
+        />
+    <CheckBox 
+        android:id="@+id/checkItCate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/iconCate"
+        android:layout_toRightOf="@id/iconCate"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="20dp"
+        />
+    </RelativeLayout>
+    
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >"
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        >
+        <ImageView 
+            android:id="@+id/iconItem"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="5dp"
+            />
+        <TextView 
+            android:id="@+id/titleItem"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignBaseline="@id/iconItem"
+            android:layout_toRightOf="@id/iconItem"
+            android:textColor="#9BFFBA"
+            android:textSize="11dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:onClick="showdetail"
+            
+            />
+        <TextView 
+		            android:id="@+id/quanItem"
+                    android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text=""
+		            android:layout_toRightOf="@id/titleItem"
+		            android:textSize="12dp"
+		            android:layout_alignBaseline="@id/titleItem"
+		            android:textColor="#CC0000"
+		            
+		/>
+        
+        <CheckBox 
+            android:id="@+id/isSelectedItem"
+            android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="265dp"
+		    android:layout_marginTop="4dp"
+		    android:onClick="toggleSelect"
+            />
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_below="@id/titleItem"
+            android:layout_alignLeft="@id/titleItem"
+            android:id="@+id/parentLayout"
+            android:layout_marginLeft="5dp"
+            >
+		        <TextView 
+		            android:id="@+id/priceItem"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="9dp"
+		            android:textStyle="italic"
+		            android:textColor="#0AB43D"
+		            
+		            
+		            />
+        </LinearLayout>
+        <RatingBar 
+            android:id="@+id/rateItem"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@id/parentLayout"
+		    android:layout_alignLeft="@+id/parentLayout"
+		    style="@style/customratingbar"
+		    android:layout_marginTop="7dp"
+            />
+    </RelativeLayout>
+    
+
+</LinearLayout>

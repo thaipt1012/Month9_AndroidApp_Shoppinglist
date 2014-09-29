@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="hinhanh">
+    <item >cate_img/thit.jpg</item>
+    <item >cate_img/rau.jpg</item>
+    <item >cate_img/doannhanh.jpg</item>
+    <item>cate_img/quan_ao.jpg</item>
+</string-array>
+    
+</resources>

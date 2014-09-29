@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/mainmenu"
+        android:title="ShoppingList"
+        android:icon="@drawable/home"
+        ></item>
+    <item android:id="@+id/addItem"
+        android:title="Thêm"
+        android:icon="@drawable/add"
+        ></item>
+    <item android:id="@+id/myItemChecked"
+        android:title="Kết quả"
+        android:icon="@drawable/ischecked"
+        ></item>
+    <item android:id="@+id/goCategory"
+        android:title="Mặt Hàng"
+        android:icon="@drawable/list"
+        ></item>
+    
+</menu>
